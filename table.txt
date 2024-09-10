@@ -1,0 +1,45 @@
+tables:
+
+
+1.user table:
+id
+first name
+last name
+dob
+username
+email
+password
+gender
+country
+terms and conditions
+profile
+languages known
+created at
+updated at
+
+2.otp table:
+user_id(from user table id)
+otp
+otp_expiry
+
+3.todo_list table:
+user_id(from user table id)
+task name
+task status
+created at
+updated at
+
+4.admin table:
+id
+username
+password
+created at
+
+5.files table:
+user_id(from user table id)
+file name
+file path
+uploaded at
+deleted at
+
+
